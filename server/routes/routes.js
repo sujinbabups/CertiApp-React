@@ -4,7 +4,7 @@ const certificate = require("../Models/Certificate");
 
 router.get("/", async (req, res) => {
     const details = await certificate.find({});
-    res.json(details);
+    res.json(details)
   });
 
   router.post('/certificate',async (req, res) => {
