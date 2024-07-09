@@ -13,11 +13,12 @@ function App() {
          <Route path='/' element={<Mainlayout/>}>
          <Route path='/' element={<Homepage/>}/> 
         <Route path='/certificate' element={<Issue_certificate/>}/>
-        <Route path='/view' element={<Viewcertificate/>} loader={certificateLoader}/>
+        <Route path='/certificate/:id' element={<Viewcertificate/>}/>
+        
        </Route>
        </>
 
-      
+
     )
   )
   

@@ -1,10 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 const ViewCertificate = () => {
 
- 
+ const {id}= useParams();
+ const [certi,setCertificate]=useState();
 
+ useEffect(()=>{
+  const getcerticifate=async()=>{
+    const res=await fetch(`http://localhost:5001/api/certificate/${id}`);
+   
+    const data=await res.json();
+    // console.log(data);
+    setCertificate(data)
+    
+  }
+  getcerticifate();
+ },[id])
+
+
+ if(!certi){
+  return <h3>Loading</h3>
+ }
 
   return (
 <>
@@ -18,7 +35,8 @@ const ViewCertificate = () => {
         <div className="flex justify-center">
           <div className="w-3/4 text-center">
             <span className="text-2xl font-semibold underline text-green-700">
-              Name: TBD
+              Name: 
+              <span className='text-3xl font-semibold underline text-green-900' id='name'>{certi.cname}</span>
             </span>
           </div>
         </div>
@@ -27,7 +45,9 @@ const ViewCertificate = () => {
         <div className="flex justify-center">
           <div className="w-3/4 text-center">
             <span className="text-xl italic text-gray-600">has earned</span>
-            <span className="text-2xl font-bold text-green-800 block">Grade: TBD</span>
+            <span className="text-2xl font-bold text-green-800 block">Grade: 
+            <span className='text-3xl font-semibold underline text-green-900' id='grade'>{certi.grade}</span>
+            </span>
           </div>
         </div>
       </div>
@@ -41,17 +61,22 @@ const ViewCertificate = () => {
       <div className="mt-4">
         <div className="flex justify-center">
           <div className="w-3/4 text-center">
-            <span className="text-2xl font-semibold underline block text-green-700">Course: TBD</span>
+            <span className="text-2xl font-semibold underline block text-green-700">Course:
+            <span className='text-3xl font-semibold underline text-green-900' id='course'>{certi.course}</span>
+            </span>
           </div>
         </div>
       </div>
       <div className="mt-4">
         <div className="flex justify-between">
           <div className="text-left">
-            <span className="text-xl font-bold text-green-800">Certificate ID: TBD</span>
+            <span className="text-xl font-bold text-green-800">Certificate ID: 
+            <span className='text-3xl font-semibold underline text-green-900' id='certid'>{certi.certid}</span>
+            </span>
           </div>
           <div className="text-right">
-            <span className="text-xl text-gray-700">Date of Completion: TBD</span><br/>
+            <span className="text-xl text-gray-700">Date of Completion:
+            <span className='text-3xl font-semibold underline text-green-900' id='date'>{certi.date}</span></span><br/>
             <span className="text-xl text-gray-700">Place: Trivandrum</span>
           </div>
         </div>
@@ -71,11 +96,6 @@ const ViewCertificate = () => {
 </>
   )
 }
-const {id}=useParams()
-const certificateLoader=async ()=>{
-  const res=await fetch(`/certificate:${id}`)
-  const data=await res.json()
-  return data;
-}
 
-export {ViewCertificate as default,certificateLoader}
+
+export default ViewCertificate 

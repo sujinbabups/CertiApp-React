@@ -19,9 +19,8 @@ const submitForm=(e)=>{
   }
 
   const res= addCertificate(newCertificate)
-  toast.success('courses added')
-  // navigate('/courses')
-  alert('details added')
+  toast.success('New certificate issued')
+  
 }
   const addCertificate=async(newCertificate)=>{
     const res=await fetch('http://localhost:5001/certificate',{

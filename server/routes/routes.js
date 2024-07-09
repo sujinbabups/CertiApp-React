@@ -31,8 +31,8 @@ router.get("/view/:id", (req, res) => {
 
 router.get('/api/certificate/:id',async (req, res) => {
     const id= req.params.id;
-    const details= await sample.findOne({crt_id: id})
-    console.log(id);
+    const details= await certificate.findOne({certid: id})
+    // console.log(id);
     // console.log(details);
     res.json(details);
 });
