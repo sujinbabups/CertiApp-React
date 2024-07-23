@@ -8,7 +8,7 @@ const ViewCertificate = () => {
 
  useEffect(()=>{
   const getcerticifate=async()=>{
-    const res=await fetch(`http://localhost:5001/api/certificate/${id}`);
+    const res=await fetch(`/api/certificate/${id}`);
    
     const data=await res.json();
     // console.log(data);

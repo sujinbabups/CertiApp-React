@@ -29,7 +29,7 @@ router.get("/view/:id", (req, res) => {
   
 });
 
-router.get('/api/certificate/:id',async (req, res) => {
+router.get('/certificate/:id',async (req, res) => {
     const id= req.params.id;
     const details= await certificate.findOne({certid: id})
     // console.log(id);

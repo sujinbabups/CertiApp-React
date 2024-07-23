@@ -23,7 +23,7 @@ const submitForm=(e)=>{
   
 }
   const addCertificate=async(newCertificate)=>{
-    const res=await fetch('http://localhost:5001/certificate',{
+    const res=await fetch('/api/certificate',{
       method:'POST',
       headers:{
         'Content-Type':'application/json',
