@@ -57,7 +57,7 @@ docker-compose down
 
 ## Demo 📹
 
- <img align="center" alt="my dapp" src="https://github.com/sujinbabups/CertiApp-React/blob/main/thumbnail.png" width="350" height="250" /><br>
+ <img align="center" alt="my dapp" src="https://github.com/sujinbabups/CertiApp-React/blob/main/thumbnail.png" width="250" height="150" /><br>
     
 ## 📦 Planned Updates
 - MetaMask Compatability
