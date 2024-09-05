@@ -8,6 +8,10 @@ A decentralized application (DApp) that allows users to issue and verify certifi
 - **Search Certificate**: Users can search for a certificate by its ID and view the associated details.
 - **Blockchain-based Verification**: Certificates are stored on the blockchain, ensuring authenticity and immutability.
 
+## Demo 📹
+
+ <img align="center" alt="my dapp" src="https://github.com/sujinbabups/CertiApp-React/blob/main/thumbnail.webp" width="200" height="150" /><br>
+    
 ## 🧰 Built With
 
 <img src="https://skillicons.dev/icons?i=vscode,react,tailwind,nodejs,solidity,metamask"/>
@@ -55,10 +59,6 @@ To stop the running containers, use
 docker-compose down
 ```
 
-## Demo 📹
-
- <img align="center" alt="my dapp" src="https://github.com/sujinbabups/CertiApp-React/blob/main/thumbnail.png" width="200" height="150" /><br>
-    
 ## 📦 Planned Updates
 - MetaMask Compatability
 - UI Updates
