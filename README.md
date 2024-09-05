@@ -60,7 +60,7 @@ docker-compose down
 
 ## Demo 📹
 
-
+ <img align="left" alt="GIF" src="https://github.com/sujinbabups/CertiApp-React/blob/main/thumbnail.png" width="350" height="250" /><br>
     
 ## 📦 Planned Updates
 - MetaMask Compatability
