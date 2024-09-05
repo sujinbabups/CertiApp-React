@@ -15,7 +15,7 @@ A decentralized application (DApp) that allows users to issue and verify certifi
 <a href="https://ethereum.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Ethereum-icon-purple.svg" alt="ethereum" width="40" height="40"/></a>
 
 
-## 📢📢 Prerequisites
+## 📢📢📢 Prerequisites
 - NodeJS 16.x
 
 ## Getting Started 🚀
