@@ -52,7 +52,7 @@ Then, run the containers
 docker compose up
 ```
 
-This will set up and run your certificate DApp in a Docker container. The app will be accessible on http://localhost:3000.
+This will set up and run your certificate DApp in a Docker container. The app will be accessible on http://localhost:5174.
 ## 5. Stop the application
 To stop the running containers, use
 ``` bash
