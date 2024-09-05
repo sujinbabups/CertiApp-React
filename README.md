@@ -9,11 +9,8 @@ A decentralized application (DApp) that allows users to issue and verify certifi
 - **Blockchain-based Verification**: Certificates are stored on the blockchain, ensuring authenticity and immutability.
 
 ## 🧰 Built With
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://soliditylang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/ethereum/solidity/develop/docs/logo.svg" alt="solidity" width="40" height="40"/> </a> &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://ethereum.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Ethereum-icon-purple.svg" alt="ethereum" width="40" height="40"/></a>
 
+<img src="https://skillicons.dev/icons?i=vscode,react,tailwind,nodejs,solidity,metamask"/>
 
 ## 📢📢📢 Prerequisites
 - NodeJS 16.x
@@ -60,7 +57,7 @@ docker-compose down
 
 ## Demo 📹
 
- <img align="left" alt="GIF" src="https://github.com/sujinbabups/CertiApp-React/blob/main/thumbnail.png" width="350" height="250" /><br>
+ <img align="center" alt="my dapp" src="https://github.com/sujinbabups/CertiApp-React/blob/main/thumbnail.png" width="350" height="250" /><br>
     
 ## 📦 Planned Updates
 - MetaMask Compatability
