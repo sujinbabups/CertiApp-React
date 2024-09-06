@@ -78,6 +78,4 @@ Should you have ideas to enhance this, kindly fork the repository and initiate a
 4. Push to the Branch (git push origin feature/<feature_name>)
 5. Open a Pull Request
 
-## 📜 License
 
-This project is licensed under the MIT license - see the  LICENSE file for details.
