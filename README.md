@@ -80,4 +80,4 @@ Should you have ideas to enhance this, kindly fork the repository and initiate a
 
 ## 📜 License
 
-This project is licensed under the MIT license - see the LICENSE.md file for details.
+This project is licensed under the MIT license - see the <a src="https://github.com/sujinbabups/CertiApp-React/blob/main/LICENSE"> LICENSE</a> file for details.
