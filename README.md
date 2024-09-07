@@ -12,7 +12,8 @@ A decentralized application (DApp) that allows users to issue and verify certifi
 <a href="https://youtu.be/qk3JeEIf77U">
  <img align="center" alt="my dapp" src="https://github.com/sujinbabups/CertiApp-React/blob/main/thumbnail.webp" width="200" height="150" /><br>
     </a>
-## 🧰 Built With
+    
+## 🧰Built With
 
 <img src="https://skillicons.dev/icons?i=vscode,react,tailwind,nodejs,docker,solidity,metamask"/>
 
