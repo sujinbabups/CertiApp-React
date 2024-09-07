@@ -9,7 +9,7 @@ A decentralized application (DApp) that allows users to issue and verify certifi
 - **Blockchain-based Verification**: Certificates are stored on the blockchain, ensuring authenticity and immutability.
 
 ## Demo 📹
-<a href="https://youtu.be/-3y1vNlUXA4">
+<a href="https://youtu.be/qk3JeEIf77U">
  <img align="center" alt="my dapp" src="https://github.com/sujinbabups/CertiApp-React/blob/main/thumbnail.webp" width="200" height="150" /><br>
     </a>
 ## 🧰 Built With
