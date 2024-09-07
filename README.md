@@ -29,12 +29,12 @@ Follow these steps to set up the project locally.
 First, clone the repository from GitHub:
 
 ```bash
-git clone https://github.com/sujinbabups/certificate-dapp.git
+https://github.com/sujinbabups/CertiApp-React.git
 
 ```
 ## 2. Navigate into the project directory
 ```bash
-cd certificate-dapp
+cd CertiApp-React
 ```
 ## 3. Set up environment variables
 
